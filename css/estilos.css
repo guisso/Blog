@@ -1,0 +1,205 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+:root {
+    --tommaisescuro: #1E2438;
+    --tomescuro: #29314C;
+    --tomclaro: #178BB3;
+    --tommaisclaro: #579CB3;
+    --tombemmaisclaro: #A3E8FF;
+}
+
+* {
+    /*font-family: 'Architects Daughter', cursive;*/
+    /*font-family: 'Courgette', cursive;*/
+    /*font-family: 'Kalam', cursive;*/
+    /*font-family: 'Kaushan Script', cursive;*/
+    /*font-family: 'Alef', sans-serif;*/
+    /*font-family: 'Castoro', serif;*/
+    font-family: 'Oregano', cursive;
+}
+
+pre {
+    background-color: #dddddd;
+    border: solid thin #888888;
+    padding: .5em;
+}
+
+code {
+    font-family: monospace;
+}
+
+body {
+    background-image: url('../imgs/fundo_001.png');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+div.principal {
+    width: 90%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0;
+}
+
+main label, main input, main textarea, div#botoes a, div#botoes button {
+    font-size: 1.25em;
+    padding: .25em;
+}
+
+header, footer {
+    color: #FFFFFF;
+    background-color: var(--tommaisescuro);
+    padding: .5em;
+    margin: 0;
+}
+
+header {
+    font-size: 2em;
+    text-align: center;
+}
+
+footer {
+    font-size: 75%;
+    text-align: right;
+}
+
+address {
+    font-style: normal;
+}
+
+div.postagem {
+    background-color: #FFFFFF;
+    padding: .5em 0;
+    margin: 2em 0 1em;
+    /*border-top: dotted 2px var(--tomclaro);*/
+}
+
+/*div.postagem:nth-child(odd) {
+    background-color: var(--tombemmaisclaro);
+}*/
+
+/*div.postagem:nth-child(even) h2.titulopostagem {
+    background-color: var(--tomclaro);
+}*/
+
+/*div.postagem:nth-child(odd) h2.titulopostagem {
+    background-color: var(--tommaisclaro);
+}*/
+
+h2.titulopostagem {
+    color: #FFFFFF;
+    background-color: var(--tomclaro);
+    border-bottom: solid medium #cecece;
+    margin: 0;
+    padding: .25em;
+    text-shadow: 2px 2px 2.5px var(--tomescuro);
+}
+
+span.datahorapostagem {
+    color: #FFFFFF;
+    font-size: .4em;
+    float: right;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+div.conteudopostagem {
+    text-indent: 1.5em;
+    margin: 0;
+    padding: 0 .5em;
+}
+
+div.retornopostagem {
+    /*    background-color: #E0E0E0;*/
+    /*border-bottom: solid medium #cecece;*/
+    text-align: center;
+    padding: .5em 0 0;
+    margin: 0;
+}
+
+i.positivo {
+    color: blue;
+}
+
+i.negativo {
+    color: red;
+}
+
+form#frmedicao label, form#frmedicao input {
+    display: block;
+}
+
+form#frmedicao input {
+    width: 50%;
+    min-width: 300px;
+    margin-bottom: 1em;
+}
+
+textarea {
+    height: 15em;
+}
+
+div#botoes {
+    margin: .5em 0;
+    text-align: right;
+}
+
+div#botoes button {
+    padding: .25em 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ECECEC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+td {
+    padding: .25em .5em;
+}
+
+/*th:nth-child(6), td:nth-child(6), th:nth-child(7), td:nth-child(7) {*/
+th.centro, td.centro {
+    width: 0;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #DDDDDD;
+}
+
+i.editar {
+    color: green;
+}
+
+i.excluir {
+    color: red;
+}
+
+span i.icone {
+    color: var(--tomclaro);
+    font-size: 50%;
+    margin: 0 .25em;
+    float: right;
+}
